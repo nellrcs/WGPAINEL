@@ -30,7 +30,7 @@
               
               <div class="panel-heading">
                 <br>
-                <h1>ADMINISTRADOR</h1>
+                <img src="img/login-logo.png" alt="">
               </div>
               <div class="panel-body">
                   <br>

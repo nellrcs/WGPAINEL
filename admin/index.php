@@ -90,7 +90,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">ADM</a>
+          <a class="navbar-brand" href="index.php"><img src="img/login-logo.png" alt="" width="140"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
