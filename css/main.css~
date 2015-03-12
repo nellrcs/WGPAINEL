@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+/* @font-face {
+	font-family:'Ubuntu-Regular';
+	src: url('../fonts/Ubuntu_gdi.eot');
+	src: url('../fonts/Ubuntu_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Ubuntu_gdi.woff') format('woff'),
+		url('../fonts/Ubuntu_gdi.ttf') format('truetype'),
+		url('../fonts/Ubuntu_gdi.svg#Ubuntu-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0008-25CA;
+} */
+::-moz-selection {
+  color: #e9efee;
+  background: #5b938a;
+}
+::selection {
+  color: #e9efee;
+  background: #5b938a;
+}
+.fundo {
+  background-image: url(../img/fundo.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+body textarea:focus,
+body select:focus,
+body input[type="text"]:focus,
+body input[type="password"]:focus,
+body input[type="datetime"]:focus,
+body input[type="datetime-local"]:focus,
+body input[type="date"]:focus,
+body input[type="month"]:focus,
+body input[type="time"]:focus,
+body input[type="week"]:focus,
+body input[type="number"]:focus,
+body input[type="email"]:focus,
+body input[type="url"]:focus,
+body input[type="search"]:focus,
+body input[type="tel"]:focus,
+body input[type="color"]:focus,
+body .uneditable-input:focus {
+  border-color: rgba(91, 147, 138, 0.8) !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(91, 147, 138, 0.6) !important;
+  outline: 0 none;
+}
+
+body header {
+  background-image: url(../img/pattern_verde.jpg);
+  background-position: top;
+  padding-top: 20px;
+  -moz-box-shadow: 0px 3px 41px #000000;
+  -webkit-box-shadow: 0px 3px 41px #000000;
+  box-shadow: 0px 3px 41px #000000;
+}
+body header .logo {
+  text-align: center;
+}
+body header h1 {
+  padding: 0;
+  margin: 0;
+}
+
+body h2 {
+  font-size: 25px;
+  color: #666666;
+  padding-bottom: 7px;
+  background-image: url(../img/pattern_alpha.png);
+  position: relative;
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+body h2 span {
+  background: #5b938a;
+  height: 7px;
+  width: 110px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+body .home .servicos {
+  margin-bottom: 50px;
+}
+body .home .servicos .servico {
+  text-align: center;
+  margin-top: 20px;
+}
+body .home .servicos .servico a:hover {
+  text-decoration: none;
+}
+body .home .servicos .servico a img {
+  -webkit-transition: 0.8s;
+  transition: 0.2s;
+}
+body .home .servicos .servico a:hover img {
+  outline: 2px solid #5b938a;
+}
+body .home .servicos .servico a .titulo {
+  color: #666666;
+  font-size: 20px;
+  padding: 8px;
+}
+body .descricao {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+body footer {
+  background-image: url(../img/pattern_verde.jpg);
+  color: #fff;
+}
+body footer .sobre {
+  background-image: url(../img/pattern_verde.jpg);
+  text-align: center;
+}
+body footer .sobre .titulo {
+  margin-top: 10px;
+  font-weight: bold;
+}
+body footer .sobre .endereco {
+  padding: 15px;
+}
+body footer .cpyrig {
+  padding: 30px 10px;
+  text-align: center;
+}
+body footer .social {
+  list-style: none;
+  padding: 30px 10px;
+}
+body footer .social li a {
+  display: block;
+  width: 22px;
+  height: 22px;
+  float: right;
+  margin-right: 3px;
+}
+body footer .social li a.face {
+  background-image: url(../img/face.png);
+}
+body footer .social li a.tw {
+  background-image: url(../img/tw.png);
+}
+body footer .social li a.gg {
+  background-image: url(../img/gg.png);
+}
+body .empresa .container {
+  min-height: 500px;
+}
+body .empresa .fio_topo {
+  background-image: url(../img/fio_topo.jpg);
+  background-position: center;
+  height: 90px;
+  text-align: center;
+}
+body .empresa .fio_topo h1 {
+  color: #fff;
+  padding: 20px;
+}
+body .nservicos h2 {
+  margin-top: 0;
+}
+body .nservicos .container {
+  min-height: 500px;
+}
+#slider .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
