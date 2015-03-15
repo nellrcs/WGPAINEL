@@ -14,8 +14,11 @@ Painel administrativo agil.
 
 * **/index.php** (index) arquivo principal onde deve ser definido o nome de todas as paginas que foram criados os arquivos com o mesmo nome, na pasta **s_html/** deve haver um arquivo **index.html**  obrigatorio mas nao precisa ser declarado no **/index.php**
 
+
+
 * ###Controller
   Os aquivos criados no diretorio **s_php/** fazem conexao com o banco de dados e alteram o viasual do seu (view.html) que esta na pasta **s_html/** nao eh obigatorio a criacao deste arquivo se o view nao precisar interagir com o php.
+
 
 * ###View  
  Todo o codigo html do site deve ser salvo na pasta **s_html/** e os trechos setados variáveis de template ex.
@@ -53,7 +56,7 @@ Painel administrativo agil.
  ```
 
 
- * ###Tradução
+* ###Tradução
  Todas as palavras do site devem ser finidas no arquivo **s_php/linguagem/textos.php**  
 
  ```html
@@ -79,6 +82,9 @@ Painel administrativo agil.
  );
  ?>
  ```
- * ###Paginacao
+
+
+
+* ###Paginacao
 
  A paginacao pode ser feita com urls amigaveis atraves de includes de trechos html detro da index.html, a variavel de template que recebe este condigo esta definifa como ** {INCLUIR_PAGINA} ** onde ela for declarada sera inserido o codigo relativo ao nome da url que foi passada.
