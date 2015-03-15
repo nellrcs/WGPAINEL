@@ -59,12 +59,13 @@ Painel administrativo agil.
 * ###Tradução
  Todas as palavras do site devem ser finidas no arquivo **s_php/linguagem/textos.php**  
 
+(view.html)
  ```html
  <li>{_EMPRESA}</li>
  <li>{_PORTIFOLIO}</li>
  <li>{_CONTATO}</li>
  ```
-
+ **s_php/linguagem/textos.php**
  ```php
 <?
  $palavas = array(
@@ -85,6 +86,6 @@ Painel administrativo agil.
 
 
 
-* ###Paginação
+* ###Paginacao
 
- A paginacao pode ser feita com urls amigaveis atraves de includes de trechos html detro da index.html, a variavel de template que recebe este condigo esta definifa como **{INCLUIR_PAGINA}** onde ela for declarada sera inserido o codigo relativo ao nome da url que foi passada.
+ A paginacao pode ser feita com urls amigaveis atraves de includes de trechos html detro da index.html, a variavel de template que recebe este condigo esta definifa como ** {INCLUIR_PAGINA} ** onde ela for declarada sera inserido o codigo relativo ao nome da url que foi passada.
