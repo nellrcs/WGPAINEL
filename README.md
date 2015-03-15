@@ -87,4 +87,4 @@ Painel administrativo agil.
 
 * ###Paginação
 
- A paginacao pode ser feita com urls amigaveis atraves de includes de trechos html detro da index.html, a variavel de template que recebe este condigo esta definifa como ** {INCLUIR_PAGINA} ** onde ela for declarada sera inserido o codigo relativo ao nome da url que foi passada.
+ A paginacao pode ser feita com urls amigaveis atraves de includes de trechos html detro da index.html, a variavel de template que recebe este condigo esta definifa como **{INCLUIR_PAGINA}** onde ela for declarada sera inserido o codigo relativo ao nome da url que foi passada.
