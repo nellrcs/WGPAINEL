@@ -1,6 +1,8 @@
 # WGPAINEL
 Painel administrativo agil.
 
+ [video de apresentação](https://vimeo.com/manage/videos/144430849).
+
 ## Configurando
 
 * **config.php** (config) Onde sera definido a conexao e o usuario principal e senha do painel.  
